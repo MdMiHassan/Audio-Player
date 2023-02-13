@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="8dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="8dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:gravity="center"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/imgsong"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="2.5dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="5dp"
+            android:src="@drawable/ic_music"
+            app:tint="@color/teal_200">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/textsongname"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_toLeftOf="@+id/more_option"
+            android:layout_toEndOf="@+id/imgsong"
+            android:ellipsize="marquee"
+            android:gravity="center_vertical"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:padding="6dp"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="Song Name"
+            android:textColor="@color/black_gray"
+            android:textSize="15sp">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/more_option"
+
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ic_more_vert"
+            android:focusable="false"
+            app:backgroundTint="@null">
+
+        </Button>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
