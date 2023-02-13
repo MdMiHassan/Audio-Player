@@ -1,0 +1,100 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.audioplayer"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\mehedi\AndroidStudioProjects\AudioPlayer\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\mehedi\AndroidStudioProjects\AudioPlayer\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->C:\Users\mehedi\AndroidStudioProjects\AudioPlayer\app\src\main\AndroidManifest.xml:5:5-80
+11-->C:\Users\mehedi\AndroidStudioProjects\AudioPlayer\app\src\main\AndroidManifest.xml:5:22-77
+12
+13    <application
+13-->C:\Users\mehedi\AndroidStudioProjects\AudioPlayer\app\src\main\AndroidManifest.xml:7:5-33:19
+14        android:allowBackup="true"
+14-->C:\Users\mehedi\AndroidStudioProjects\AudioPlayer\app\src\main\AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.7.0] C:\Users\mehedi\.gradle\caches\transforms-3\d79cd730aff89e16bbe6bbee05f6ceb1\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@drawable/loud_speaker"
+17-->C:\Users\mehedi\AndroidStudioProjects\AudioPlayer\app\src\main\AndroidManifest.xml:9:9-46
+18        android:label="Audio Player"
+18-->C:\Users\mehedi\AndroidStudioProjects\AudioPlayer\app\src\main\AndroidManifest.xml:10:9-37
+19        android:roundIcon="@drawable/loud_speaker"
+19-->C:\Users\mehedi\AndroidStudioProjects\AudioPlayer\app\src\main\AndroidManifest.xml:11:9-51
+20        android:supportsRtl="true"
+20-->C:\Users\mehedi\AndroidStudioProjects\AudioPlayer\app\src\main\AndroidManifest.xml:12:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.AudioPlayer" >
+22-->C:\Users\mehedi\AndroidStudioProjects\AudioPlayer\app\src\main\AndroidManifest.xml:13:9-49
+23        <activity
+23-->C:\Users\mehedi\AndroidStudioProjects\AudioPlayer\app\src\main\AndroidManifest.xml:14:9-18:15
+24            android:name="com.example.audioplayer.MainActivity"
+24-->C:\Users\mehedi\AndroidStudioProjects\AudioPlayer\app\src\main\AndroidManifest.xml:15:13-41
+25            android:exported="false"
+25-->C:\Users\mehedi\AndroidStudioProjects\AudioPlayer\app\src\main\AndroidManifest.xml:16:13-37
+26            android:label="@string/title_activity_home" />
+26-->C:\Users\mehedi\AndroidStudioProjects\AudioPlayer\app\src\main\AndroidManifest.xml:17:13-56
+27        <activity
+27-->C:\Users\mehedi\AndroidStudioProjects\AudioPlayer\app\src\main\AndroidManifest.xml:19:9-21:40
+28            android:name="com.example.audioplayer.player"
+28-->C:\Users\mehedi\AndroidStudioProjects\AudioPlayer\app\src\main\AndroidManifest.xml:20:13-35
+29            android:exported="false" />
+29-->C:\Users\mehedi\AndroidStudioProjects\AudioPlayer\app\src\main\AndroidManifest.xml:21:13-37
+30        <activity
+30-->C:\Users\mehedi\AndroidStudioProjects\AudioPlayer\app\src\main\AndroidManifest.xml:22:9-32:20
+31            android:name="com.example.audioplayer.Home"
+31-->C:\Users\mehedi\AndroidStudioProjects\AudioPlayer\app\src\main\AndroidManifest.xml:23:13-33
+32            android:exported="true"
+32-->C:\Users\mehedi\AndroidStudioProjects\AudioPlayer\app\src\main\AndroidManifest.xml:24:13-36
+33            android:label="Audio Player"
+33-->C:\Users\mehedi\AndroidStudioProjects\AudioPlayer\app\src\main\AndroidManifest.xml:25:13-41
+34            android:theme="@style/Theme.AudioPlayer.NoActionBar" >
+34-->C:\Users\mehedi\AndroidStudioProjects\AudioPlayer\app\src\main\AndroidManifest.xml:26:13-65
+35            <intent-filter>
+35-->C:\Users\mehedi\AndroidStudioProjects\AudioPlayer\app\src\main\AndroidManifest.xml:27:13-31:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->C:\Users\mehedi\AndroidStudioProjects\AudioPlayer\app\src\main\AndroidManifest.xml:28:17-69
+36-->C:\Users\mehedi\AndroidStudioProjects\AudioPlayer\app\src\main\AndroidManifest.xml:28:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->C:\Users\mehedi\AndroidStudioProjects\AudioPlayer\app\src\main\AndroidManifest.xml:30:17-77
+38-->C:\Users\mehedi\AndroidStudioProjects\AudioPlayer\app\src\main\AndroidManifest.xml:30:27-74
+39            </intent-filter>
+40        </activity>
+41        <activity
+41-->[com.karumi:dexter:6.2.3] C:\Users\mehedi\.gradle\caches\transforms-3\39b47808cd7e6486169338c0d41eaf7b\transformed\dexter-6.2.3\AndroidManifest.xml:27:9-29:72
+42            android:name="com.karumi.dexter.DexterActivity"
+42-->[com.karumi:dexter:6.2.3] C:\Users\mehedi\.gradle\caches\transforms-3\39b47808cd7e6486169338c0d41eaf7b\transformed\dexter-6.2.3\AndroidManifest.xml:28:13-60
+43            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+43-->[com.karumi:dexter:6.2.3] C:\Users\mehedi\.gradle\caches\transforms-3\39b47808cd7e6486169338c0d41eaf7b\transformed\dexter-6.2.3\AndroidManifest.xml:29:13-69
+44
+45        <provider
+45-->[androidx.emoji2:emoji2:1.0.0] C:\Users\mehedi\.gradle\caches\transforms-3\7a8fe7a0d27e6111d8f26a88e3f3f946\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+46            android:name="androidx.startup.InitializationProvider"
+46-->[androidx.emoji2:emoji2:1.0.0] C:\Users\mehedi\.gradle\caches\transforms-3\7a8fe7a0d27e6111d8f26a88e3f3f946\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+47            android:authorities="com.example.audioplayer.androidx-startup"
+47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\mehedi\.gradle\caches\transforms-3\7a8fe7a0d27e6111d8f26a88e3f3f946\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+48            android:exported="false" >
+48-->[androidx.emoji2:emoji2:1.0.0] C:\Users\mehedi\.gradle\caches\transforms-3\7a8fe7a0d27e6111d8f26a88e3f3f946\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+49            <meta-data
+49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\mehedi\.gradle\caches\transforms-3\7a8fe7a0d27e6111d8f26a88e3f3f946\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+50                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+50-->[androidx.emoji2:emoji2:1.0.0] C:\Users\mehedi\.gradle\caches\transforms-3\7a8fe7a0d27e6111d8f26a88e3f3f946\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+51                android:value="androidx.startup" />
+51-->[androidx.emoji2:emoji2:1.0.0] C:\Users\mehedi\.gradle\caches\transforms-3\7a8fe7a0d27e6111d8f26a88e3f3f946\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+52            <meta-data
+52-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\mehedi\.gradle\caches\transforms-3\7c2b991ffee7d4db452bfe70f5605b71\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+53                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+53-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\mehedi\.gradle\caches\transforms-3\7c2b991ffee7d4db452bfe70f5605b71\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+54                android:value="androidx.startup" />
+54-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\mehedi\.gradle\caches\transforms-3\7c2b991ffee7d4db452bfe70f5605b71\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+55        </provider>
+56    </application>
+57
+58</manifest>

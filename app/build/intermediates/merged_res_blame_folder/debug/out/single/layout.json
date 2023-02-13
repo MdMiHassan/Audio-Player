@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "C:\\Users\\mehedi\\AndroidStudioProjects\\AudioPlayer\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_player.xml",
+        "source": "C:\\Users\\mehedi\\AndroidStudioProjects\\AudioPlayer\\app\\src\\main\\res\\layout\\activity_player.xml"
+    },
+    {
+        "merged": "C:\\Users\\mehedi\\AndroidStudioProjects\\AudioPlayer\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\content_main.xml",
+        "source": "C:\\Users\\mehedi\\AndroidStudioProjects\\AudioPlayer\\app\\src\\main\\res\\layout\\content_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\mehedi\\AndroidStudioProjects\\AudioPlayer\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_first.xml",
+        "source": "C:\\Users\\mehedi\\AndroidStudioProjects\\AudioPlayer\\app\\src\\main\\res\\layout\\fragment_first.xml"
+    },
+    {
+        "merged": "C:\\Users\\mehedi\\AndroidStudioProjects\\AudioPlayer\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_second.xml",
+        "source": "C:\\Users\\mehedi\\AndroidStudioProjects\\AudioPlayer\\app\\src\\main\\res\\layout\\fragment_second.xml"
+    },
+    {
+        "merged": "C:\\Users\\mehedi\\AndroidStudioProjects\\AudioPlayer\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_gallery.xml",
+        "source": "C:\\Users\\mehedi\\AndroidStudioProjects\\AudioPlayer\\app\\src\\main\\res\\layout\\fragment_gallery.xml"
+    },
+    {
+        "merged": "C:\\Users\\mehedi\\AndroidStudioProjects\\AudioPlayer\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\mehedi\\AndroidStudioProjects\\AudioPlayer\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\mehedi\\AndroidStudioProjects\\AudioPlayer\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\mehedi\\AndroidStudioProjects\\AudioPlayer\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\mehedi\\AndroidStudioProjects\\AudioPlayer\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\nav_header_home.xml",
+        "source": "C:\\Users\\mehedi\\AndroidStudioProjects\\AudioPlayer\\app\\src\\main\\res\\layout\\nav_header_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\mehedi\\AndroidStudioProjects\\AudioPlayer\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_slideshow.xml",
+        "source": "C:\\Users\\mehedi\\AndroidStudioProjects\\AudioPlayer\\app\\src\\main\\res\\layout\\fragment_slideshow.xml"
+    },
+    {
+        "merged": "C:\\Users\\mehedi\\AndroidStudioProjects\\AudioPlayer\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\app_bar_home.xml",
+        "source": "C:\\Users\\mehedi\\AndroidStudioProjects\\AudioPlayer\\app\\src\\main\\res\\layout\\app_bar_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\mehedi\\AndroidStudioProjects\\AudioPlayer\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\list_item.xml",
+        "source": "C:\\Users\\mehedi\\AndroidStudioProjects\\AudioPlayer\\app\\src\\main\\res\\layout\\list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\mehedi\\AndroidStudioProjects\\AudioPlayer\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_home.xml",
+        "source": "C:\\Users\\mehedi\\AndroidStudioProjects\\AudioPlayer\\app\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\mehedi\\AndroidStudioProjects\\AudioPlayer\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\content_home.xml",
+        "source": "C:\\Users\\mehedi\\AndroidStudioProjects\\AudioPlayer\\app\\src\\main\\res\\layout\\content_home.xml"
+    }
+]
